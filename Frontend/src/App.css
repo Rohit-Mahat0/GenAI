@@ -1,0 +1,75 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust to cover the full viewport height */
+  width: 100vw; /* Adjust to cover the full viewport width */
+
+}
+
+.bulb,
+.chat-container {
+  width: 20%; /* Adjust width as needed */
+}
+
+.bulb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-history {
+  max-height: 400px; /* Set the maximum height */
+  overflow-y: auto; /* Enable vertical scrollbar */
+  padding: 10px; /* Optional: Add padding for better readability */
+}
+
+
+.question {
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+
+
+}
+
+.answer {
+  background-color: #0d6e2d;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+
+
+}
+
+.chat_box_align_cntr {
+  position: relative; /* Set position to relative */
+  background-color: #d8cece;
+  width: 300px; /* Adjust width as needed */
+  height: 500px; /* Adjust height as needed */
+  border: 1px solid rgb(110, 108, 108); /* Border settings */
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  justify-content: flex-end; /* Align content to the bottom */
+  gap: 20px;
+
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%; /* Take full width */
+  position: absolute; /* Set position to absolute */
+  bottom: 0; /* Place it at the bottom */
+}
+
+.textarea {
+  margin-right: 5px; /* Space between textarea and SendIcon */
+  padding: 5px;
+}
+
+.send-icon{
+  color: rgb(255, 94, 0);
+}
